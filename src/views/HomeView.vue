@@ -4,9 +4,9 @@ import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
-  <main class="bg-black py-20 px-28">
+  <main class="bg-black py-20">
     <Navbar />
-    <div class="w-full mt-[180px] mb-60 flex flex-col items-center justify-center">
+    <div class="w-full mt-[180px] mb-60 px-28 flex flex-col items-center justify-center">
       <div class="absolute left-32 top-56">
         <img src="/icons/ux-designer.svg" alt="">
       </div>
@@ -56,6 +56,26 @@ import Footer from '@/components/Footer.vue';
         </div>
       </div>
     </div>
+    <div class="w-full h-[196px] flex items-center justify-center mb-36">
+      <div class="w-full h-[140px] absolute -rotate-2 bg-gradient-to-br from-purple-400 via-purple-500 to-indigo-500"></div>
+      <div class="w-full h-[140px] flex items-center justify-center rotate-2 bg-gradient-to-b from-purple-400 via-purple-500 to-indigo-500">
+        <img src="/icons/sponsorship.svg" class="-rotate-2" alt="">
+      </div>
+    </div>
+    <div class="mb-20 flex px-28 justify-center gap-28">
+      <div class="">
+        <img src="/images/music.png" alt="">
+      </div>
+      <div class="flex flex-col justify-center w-[32%]">
+        <h3 class="cabinet-font ini-h3 mb-5 text-[40px] text-white">Work With <span class="text-purple-500">Exciting</span> Companies</h3>
+        <p class="text-white text-lg  mb-5">Et Sapien Enim Congue Interdum Pulvinar Non Sed. Ac Aungue Netus Tellus Semper.</p>
+        <div class="flex w-[200px] h-[60px] items-center justify-center rounded-md bg-gradient-to-b from-purple-400 via-purple-500 to-indigo-500">
+          <button class="w-full h-full border-none text-white text-base font-medium">
+            <router-link to="/">Get Started</router-link>
+          </button>
+        </div>
+      </div>
+    </div>
     <Footer />
   </main>
 </template>
@@ -65,6 +85,10 @@ import Footer from '@/components/Footer.vue';
 
 .ini-h1 {
   line-height: 0.9;
+}
+
+.ini-h3 {
+  line-height: 1;
 }
 
 .cabinet-font {

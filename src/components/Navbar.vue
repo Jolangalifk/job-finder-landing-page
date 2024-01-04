@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between items-center" style="font-family: 'Plus Jakarta Sans', sans-serif;">
+    <div class="flex justify-between items-center  px-28" style="font-family: 'Plus Jakarta Sans', sans-serif;">
         <div class="flex gap-12">
             <div class="flex w-28 h-9">
                 <img src="/icons/logo.svg" alt="" class="w-full">
